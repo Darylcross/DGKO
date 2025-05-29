@@ -41,7 +41,7 @@ captions = [
 ]
 
 for path, caption in zip(image_paths, captions):
-    st.image(path, caption=caption, use_column_width=True)
+    st.image(path, caption=caption, use_container_width=True)
 
 # Sürpriz kutu
 st.header("🎁 Sürpriz")
